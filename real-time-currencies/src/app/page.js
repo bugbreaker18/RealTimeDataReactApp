@@ -7,7 +7,8 @@ import LineChart from './components/LineChart';
 
 export default function Home() {
   const [stockinfo, setstockinfo] = useState([])
-
+//  Using Polygon API. 
+// Try to use Postman
   useEffect(() => {
     async function getInfo() {
       try {
